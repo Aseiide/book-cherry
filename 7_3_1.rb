@@ -1,8 +1,7 @@
 class User
-  def initialize
-    puts "Initialized"
+  def initialize(name, age)
+    puts "name: #{name}, age: #{age}"
   end
 end
-user = User.new # =>成功
-user.initialize
-
+# User.new
+User.new("Alice", 30)
